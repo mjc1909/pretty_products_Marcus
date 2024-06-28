@@ -1,0 +1,44 @@
+.productCard{
+    padding: 20px;
+display: grid;
+justify-content: center;
+border-radius: 10px;
+  margin: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.200) 1px 1px 10px;
+
+}
+
+.productCard:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+
+h1{
+    margin: 50px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+h2{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.productImg{
+    border-radius: 10px;
+    max-height: 200px;
+}
+
+

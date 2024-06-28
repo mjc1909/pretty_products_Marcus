@@ -1,0 +1,31 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    margin: 1em;
+  
+    &:hover {
+      background-color: rgb(13, 123, 13);
+      transform: scale(1.05);
+      transition: 1s;
+    }
+  }
+  
+  .buttonActive {
+    background-color: rgb(66, 128, 66);
+  }
+  
+  .filterButtons {
+    text-align: center;
+    padding-top: 2em;
+  }

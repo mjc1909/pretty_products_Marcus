@@ -1,0 +1,14 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 3em;
+}
+
+.productDetails{
+    font-weight: 100;
+    background-color: rgb(234, 235, 218);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+}
