@@ -1,7 +1,7 @@
 import {useParams} from "react-router-dom";
 import useFetchById from "../../hooks/useFetchById";
 import PageHeader from "../../components/pageHeader/PageHeader";
-import Products from "../../components/products/Products";
+import Products from "../Products";
 
 
 

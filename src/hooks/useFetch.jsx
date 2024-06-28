@@ -9,9 +9,9 @@ const useFetch = () => {
     setProducts(data.products);
   };
 
-  let furniture = products.filter((p) => p.category.includes("Furniture"));
-  let beauty = products.filter((p) => p.category.includes("Beauty"));
-  let groceries = products.filter((p) => p.category.includes("Groceries"));
+  let furniture = products.filter((p) => p.category.includes("furniture"));
+  let beauty = products.filter((p) => p.category.includes("beauty"));
+  let groceries = products.filter((p) => p.category.includes("groceries"));
   let rating = products.filter((p) => p.rating > 4.8);
 
   useEffect(() => {

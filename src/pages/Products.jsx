@@ -3,7 +3,7 @@ import PageHeader from "../components/pageHeader/PageHeader";
 import useFetchById from "../hooks/useFetchById";
 import Button from "../components/button/Button";
 import { useState } from "react";
-import styles from "../../components/button/button.module.css";
+import styles from "../components/button/button.module.css";
 import ProductCard from "../components/productCard/ProductCard";
 
 const Products = () => {

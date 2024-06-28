@@ -1,8 +1,9 @@
 import { useRoutes } from "react-router-dom";
-import Products from "../components/products/Products";
 
 import ProductDetails from "../pages/productDetails/ProductDetails";
 import Home from "../pages/Home";
+import Products from "../pages/Products";
+
 
 
 const Routes = () => {
