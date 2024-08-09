@@ -5,6 +5,8 @@ import Button from "../components/button/Button";
 import { useState } from "react";
 import styles from "../components/button/button.module.css";
 import ProductCard from "../components/productCard/ProductCard";
+import useFetchData from "../hooks/useFetchData";
+
 
 const Products = () => {
   const { products, furniture, beauty, groceries } = useFetch();
@@ -26,6 +28,7 @@ const Products = () => {
 
   return (
     <section>
+      
       <PageHeader title='Produkter' headerImg={product?.images} />
       <div className={styles.filterButtons}>
         <Button
